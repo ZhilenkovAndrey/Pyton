@@ -19,3 +19,8 @@ for i in range(n):
 print('Count of coins to tap:',k if k<n/2 else n-k)
 
 
+
+
+
+
+
