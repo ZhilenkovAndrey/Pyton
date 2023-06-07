@@ -30,4 +30,5 @@
 list1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 list2 = []
 numrange = list(map(int, input('Введите через пробел значения диапазона: ').split()))
+print('Индексы элементов: ', end = ' ')
 print([i for i in range(len(list1)) if numrange[0] <= list1[i] <= numrange[1]])
