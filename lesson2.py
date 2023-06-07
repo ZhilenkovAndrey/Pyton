@@ -17,3 +17,10 @@ for i in range(n):
     if v == 1:
         k += 1    
 print('Count of coins to tap:',k if k<n/2 else n-k)
+
+
+
+
+
+
+
