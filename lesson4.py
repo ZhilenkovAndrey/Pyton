@@ -32,14 +32,14 @@
 #Input1: 11, 92, 1, 42, 15, 12, 11, 81
 #Output1: Макс. кол-во ягод 184, собрано для куста 1
 
-n = int( input('Ввеите количество кустов: ' ) )
-lis = [ int(x) for x in input('Введите количество ягод на кусте через пробел: ' ).split() ]
-lis = lis + lis[:2]
-ma = 0
-x = 0
-for i in range(n):
-    if(lis[i] + lis[i + 1] + lis[i + 2] > ma): 
-        ma = lis[i] + lis[i + 1] + lis[i + 2]
-        x = i + 2
-        if (x > n): x = x - n 
-print('Макс. кол-во ягод',ma,', собрано для куста', x)
+#n = int( input('Ввеите количество кустов: ' ) )
+#lis = [ int(x) for x in input('Введите количество ягод на кусте через пробел: ' ).split() ]
+#lis = lis + lis[:2]
+#ma = 0
+#x = 0
+#for i in range(n):
+#    if(lis[i] + lis[i + 1] + lis[i + 2] > ma): 
+#        ma = lis[i] + lis[i + 1] + lis[i + 2]
+#       x = i + 2
+#        if (x > n): x = x - n 
+#print('Макс. кол-во ягод',ma,', собрано для куста', x)
