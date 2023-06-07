@@ -13,5 +13,5 @@
 
 numbers = list(map(int, input('Введите через пробел первый элемент, шаг и количество элементов: ').split()))
 print('Элементы прогрессии: ', end =' ')
-for i in range(numbers[2]):
-    print(numbers[0] + i * numbers[1], end=' ')
+print([numbers[0] + i * numbers[1] for i in range(numbers[2])])
+
