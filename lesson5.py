@@ -21,9 +21,9 @@
 #<function_name>(0,2) -> 2
 #<function_name>(3,0) -> 3
 
-def sum(a, b):
-    if a == 0:
-        return b
-    else:
-        return sum(a - 1, b + 1)
-print(sum(int(input('Введите первое число: ')), int(input('Введите второе число: '))))
+#def sum(a, b):
+#    if a == 0:
+#        return b
+#    else:
+#       return sum(a - 1, b + 1)
+#print(sum(int(input('Введите первое число: ')), int(input('Введите второе число: '))))
